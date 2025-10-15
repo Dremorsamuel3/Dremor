@@ -1,0 +1,43 @@
+
+.intro-menu{
+    background-color: aqua;
+    color: pink;
+}
+.profile-img{
+    float: left;
+    width: 500px;
+    height: auto;   
+}
+.here we go{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.We{
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 00px;
+    flex-direction: row;
+}
+.box{
+    border: 1px;
+    border-radius: 8px;
+    padding: 15px;
+    width: 300px;
+    margin: 20px;
+    float: right;
+}
+.box ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+.box li {
+    color: lawngreen;
+    font-style: oblique;
+    margin-bottom: 8px;
+    font-size: medium;
+}
+@media screen and (max-width: 600px {
+    flex-direction: row-gap;
+}
+
